@@ -1,0 +1,114 @@
+<!-- Uses HTML5 -->
+<!DOCTYPE html>
+
+<!-- Language used in this current html file is english -->
+<html lang="en">
+    <head>
+        <!-- Ensures proper rendering and touch zooming for all devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Required meta tags to use Bootstrap's CSS -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Required script tags to use the navigation bar -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+        <!-- Latest compiled and minified Bootstrap's framework CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+        <!-- Includes the stylesheet css file-->
+        <link href="styles.css" rel="stylesheet">
+        <title>Luís Luft's Webpage</title>
+
+        <!-- Includes google's font-->
+        <link href="https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap" rel="stylesheet">
+    </head>
+
+    <!-- Navigation bar-->
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Homepage</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="programming.html">PROGRAMMING</a></li>
+                        <li><a href="employment.html">EMPLOYMENT</a></li>
+                        <li><a href="languages.html">LANGUAGES</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- First cointainer-->
+        <div class="container-fluid bg-1 text-center">
+                <b>I have been taking the course <a href="https://cs50.harvard.edu/college/" data-toggle="tooltip" title="Computer Science 50">CS50</a>
+                    offered for free by the University of Harvard which is an amazing resouce. One that has allowed me to create this website for example.
+                    Also, here are a couple of my previous programming experiences:</b>
+        </div>
+
+        <!-- Second cointainer-->
+        <div class="container-fluid bg-2 text-center">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p><b>Mathcad</b></p>
+                    High level programming language built in with unit conversion. Used it during half of my civil engineering university to
+                    create multiple automated calculations.
+                    <img src="Mathcad.jpg" class="img-responsive" style="width:100%" alt="Mathcad GUI">
+                </div>
+                <div class="col-sm-6">
+                    <p><b>Matlab</b></p>
+                    Not so high level but still easy to understand with a very intuitive syntax. Used it for 3 months while undergoing a
+                    scientifc project with a professor in the university. Used it to manipulate huge sized databases and analyze data.
+                    <img src="Matlab.jpg" class="img-responsive" style="width:100%" alt="Matlab GUI">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <p><b>Rtool</b></p>
+                    A program I developed for my civil engineering thesis. It was created using Microsoft's Visual Studio IDE and C# as the
+                    language. It is a simple program that calculates, using many different models, one important property (shrinkage) of the
+                    material concrete used in civil construction.
+                    <img src="Rtool.jpg" class="img-responsive" style="width:100%" alt="Rtool">
+                </div>
+                <div class="col-sm-6">
+                    <p><b>Excel's VBA</b></p>
+                    Took a whole semester class at <a href="https://www.colostate.edu/" data-toggle="tooltip" title="Colorado State University, Fort Collins">CSU</a>
+                    in the course CIVE 202 - Numerical Modeling and Optimization where I learned to use the programming language from Microsoft
+                    Excel, VBA. Used it to solve multiple engineering problems and create userforms.
+                    <img src="VBAExcel.jpg" class="img-responsive" style="width:100%" alt="Excel">
+                </div>
+            </div>
+        </div>
+
+        <!-- Third cointainer-->
+        <div class="container-fluid bg-3 text-center">
+            <h3>Where To Find Me?</h3>
+            <!-- Stylized button links-->
+            <a href="https://www.facebook.com/luis.luft" class="btn btn-default btn-lg">facebook</a>
+            <a href="https://www.instagram.com/luisluft" class="btn btn-default btn-lg">instagram</a>
+            <a href="https://github.com/luisluft" class="btn btn-default btn-lg">github</a> <br>
+        </div>
+
+        <!-- Forth cointainer-->
+        <div class="container-fluid bg-4 text-center">
+            Copyright 2019 &#169; Luís Alberto Luft
+        </div>
+
+        <footer class="mastfoot mt-auto text-center">
+            <div class="inner">
+                Powered by <a href="https://getbootstrap.com/">Bootstrap 3</a> Tutorial of <a href="https://www.w3schools.com">w3schools</a>
+            </div>
+        </footer>
+    </body>
+</html>
